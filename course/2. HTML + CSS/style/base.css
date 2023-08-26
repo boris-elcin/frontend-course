@@ -48,6 +48,14 @@ h2 {
     text-transform: uppercase;
 }
 
+h2.title_white {
+    color: #fff;
+}
+
+.text_white {
+    color: #fff;
+}
+
 .title-label {
     color: #FFF;
     font-size: 11px;
@@ -56,4 +64,13 @@ h2 {
     margin: 0 auto;
     width: max-content;
     padding: 5px;
+}
+
+.title-label.title-label_white {
+    background-color: #fff;
+    color: #000;
+}
+
+.align-center {
+    text-align: center;
 }
