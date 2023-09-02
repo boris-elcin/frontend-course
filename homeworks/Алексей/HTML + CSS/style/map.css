@@ -1,0 +1,33 @@
+.map {
+    background-color: #080816;
+}
+
+.map-top {
+}
+
+.map-container {
+    background-image: url(../assets/map/map.svg);
+    background-position: center;
+    width: 1440px;
+    height: 716px;
+    padding-top: 48px;
+    padding-bottom: 20px;
+    padding-left: ;
+
+}
+
+.map-bottom {
+    display: flex;
+    padding-bottom: 21px;
+}
+
+.map-button {
+    color: #1FBAD6;
+    border: none;
+    background-color: rgb(8, 8, 16);
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: max-content;
+    padding: 5px;
+}
