@@ -1,0 +1,27 @@
+.footer {
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-border {
+    display: flex;
+}
+
+.footer-nav-border-img {
+    border-radius: 50%;
+    background-color: #070716;
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: space-between;
+}

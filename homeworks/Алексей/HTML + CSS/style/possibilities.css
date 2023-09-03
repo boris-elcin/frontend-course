@@ -1,20 +1,11 @@
 .possibilities {
     background-image: url('../assets/possibilities/mobile_bg.svg');
-    background-size: cover;
-    background-repeat: repeat;
-    padding-top: 48px;
-    padding-bottom: 400px;
-    display: flex;
-    flex-direction: column;
+    padding-top: 46px;
+    padding-bottom: 80px;
 }
 
 .possibilities-label {
     margin-bottom: 32px;
-}
-
-.possibilities-text {
-    text-align: center;
-    padding-bottom: 30px;
 }
 
 .possibilities-container {
@@ -22,6 +13,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 19px;
+    margin-top: 30px;
 }
 
 .possibilities-item-img {
@@ -38,7 +30,8 @@
     color: white;
     font-size: 24px;
     z-index: 1;
-    display: flex;
+    text-transform: uppercase;
+    padding-top: 83px;
 }
 
 .possibilities-item-text p {
@@ -46,12 +39,45 @@
     text-align: center;
 }
 
-.possibilities-title {
-    padding-bottom: 1px;
-}
-
 .possibilities-item {
     position: relative;
     height: 280px;
     width: 320px;
+}
+
+.possibilities-plus {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    border: none;
+    top: 217px;
+    right: 145px;
+}
+
+.possibilities-plus-item {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.hor {
+    width: 15px;
+    height: 2px;
+    background-color: #1EACC7;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vert {
+    height: 15px;
+    width: 2px;
+    background-color: #1EACC7;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
