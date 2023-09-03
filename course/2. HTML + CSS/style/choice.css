@@ -21,6 +21,39 @@
     transform: translateX(-50%);
 }
 
+.choice-mobile-text {
+    display: none;
+    color: #fff;
+}
+
 .choice-title-label {
     margin-bottom: 24px;
+}
+
+@media (max-width: 756px) {
+    .choice-top {
+        padding-top: 27px;
+        padding-bottom: 31px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .choice-bot {
+        display: none;
+    }
+
+    .choice-car {
+        width: 300px;
+        top: 85px;
+    }
+
+    .choice-title {
+        display: none;
+    }
+
+    .choice-mobile-text {
+        display: block;
+    }
 }

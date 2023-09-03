@@ -33,3 +33,21 @@
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width: 756px) {
+    .promo {
+        padding: 132px 13px 35px;
+    }
+
+    .promo-texts {
+        display: none;
+    }
+
+    .promo-main-title {
+        margin-bottom: 20px;
+    }
+
+    .promo-titles {
+        margin-bottom: 72px;
+    }
+}

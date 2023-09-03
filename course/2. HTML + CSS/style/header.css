@@ -71,3 +71,30 @@
     color: #FFF;
     font-size: 22px;
 }
+
+@media (max-width: 756px) {
+    .header-nav {
+        display: none;
+    }
+
+    .header-bottom {
+        align-items: center;
+    }
+
+    .logo p {
+        display: none;
+    }
+
+    .logo img {
+        width: 130px;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .contact-left p {
+        display: none;
+    }
+}

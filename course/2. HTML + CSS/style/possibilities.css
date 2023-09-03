@@ -79,3 +79,10 @@
 .possibilities-title-text {
     margin-bottom: 30px;
 }
+
+@media (max-width: 756px) {
+    .possibilities-container {
+        justify-content: center;
+        grid-template-columns: minmax(200px, 300px);
+    }
+}
