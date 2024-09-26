@@ -1,0 +1,34 @@
+.map {
+    background-color: #080816;
+    background-image: url("../assets/map/map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 49px;
+    padding-bottom: 45px;
+    height: 720px;
+}
+
+.map .title-label {
+    margin-bottom: 25px;
+}
+
+.map-subtitle {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+@media (max-width: 756px) {
+    .map {
+        background-size: cover;
+        height: 360px;
+    }
+}

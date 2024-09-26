@@ -1,0 +1,83 @@
+.possibilities {
+    background-image: url('../assets/possibilities/mobile_bg.svg');
+    padding-top: 46px;
+    padding-bottom: 80px;
+}
+
+.possibilities-label {
+    margin-bottom: 32px;
+}
+
+.possibilities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 19px;
+    margin-top: 30px;
+}
+
+.possibilities-item-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+ }
+
+.possibilities-item-text {
+    position: relative;
+    color: white;
+    font-size: 24px;
+    z-index: 1;
+    text-transform: uppercase;
+    padding-top: 83px;
+}
+
+.possibilities-item-text p {
+    max-width: 100%;
+    text-align: center;
+}
+
+.possibilities-item {
+    position: relative;
+    height: 280px;
+    width: 320px;
+}
+
+.possibilities-plus {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    border: none;
+    top: 217px;
+    right: 145px;
+}
+
+.possibilities-plus-item {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.hor {
+    width: 15px;
+    height: 2px;
+    background-color: #1EACC7;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vert {
+    height: 15px;
+    width: 2px;
+    background-color: #1EACC7;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
